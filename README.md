@@ -9,7 +9,7 @@ To use the script:
 1. Run this command to download and run the script
    ```
    
-   curl -o tuic-setup.sh https://raw.githubusercontent.com/hrostami/tuic-setup/master/setup.sh && sudo bash tuic-setup.sh
+   curl -o tuic-setup.sh https://raw.githubusercontent.com/zesakain/tuic-setup/refs/heads/master/setup.sh && sudo bash tuic-setup.sh
    
    ```
 2. Follow the prompts to enter a port number, password and congestion_control
