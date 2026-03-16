@@ -151,7 +151,7 @@ else
     "congestion_control": "$CONGESTION_CONTROL",
     "alpn": ["h3", "spdy/3.1"],
     "udp_relay_ipv6": true,
-    "zero_rtt_handshake": false,
+    "zero_rtt_handshake": true,
     "dual_stack": true,
     "auth_timeout": "3s",
     "task_negotiation_timeout": "3s",
