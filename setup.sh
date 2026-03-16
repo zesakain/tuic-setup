@@ -64,7 +64,7 @@ if [ -z "$LATEST_SERVER_VERSION" ]; then
 fi
 
 # Construct the URL for the latest TUIC server binary
-TUIC_URL="https://github.com/EAimTY/tuic/releases/download/$LATEST_SERVER_VERSION/$LATEST_SERVER_VERSION-$TUIC_ARCH"
+TUIC_URL="https://api.github.com/repositories/440810736/releases/download/$LATEST_SERVER_VERSION/$LATEST_SERVER_VERSION-$TUIC_ARCH"
 
 # Check if TUIC directory exists
 if [ -d "$TUIC_FOLDER" ]; then
@@ -82,7 +82,7 @@ if [ -d "$TUIC_FOLDER" ]; then
     sleep 2
 
     # Construct the URL for the latest TUIC server binary
-    TUIC_URL="https://github.com/EAimTY/tuic/releases/download/$LATEST_SERVER_VERSION/$LATEST_SERVER_VERSION-$TUIC_ARCH"
+    TUIC_URL="https://api.github.com/repositories/440810736/releases/download/$LATEST_SERVER_VERSION/$LATEST_SERVER_VERSION-$TUIC_ARCH"
 
     # Download the latest TUIC server binary
     wget -O tuic-server "$TUIC_URL"
