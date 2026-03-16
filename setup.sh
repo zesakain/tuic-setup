@@ -47,7 +47,7 @@ else
 fi
 
 # Fetch all releases from the GitHub API
-ALL_VERSIONS=$(curl -s "https://api.github.com/repos/EAimTY/tuic/releases" | jq -r '.[].tag_name')
+ALL_VERSIONS=$(curl -s "https://api.github.com/repositories/440810736/releases" | jq -r '.[].tag_name')
 
 # Find the latest TUIC server version
 LATEST_SERVER_VERSION=""
